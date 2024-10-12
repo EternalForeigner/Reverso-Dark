@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Reverso Dark
+@namespace      https://github.com/EternalForeigner/Reverso-Dark/
+@version        1
+@description    Reverso Dark Mode
+@author         Eternal Foreigner
+==/UserStyle== */
+
+@-moz-document domain("reverso.net") {
+    html {
+        filter: invert(90%) hue-rotate(180deg) brightness(110%) contrast(110%);
+        background: white;
+    }
+}
